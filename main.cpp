@@ -26,7 +26,7 @@ int main() {
     while(1) {
         for (i=0; i<=10; i++) {
             bar.setLevel(i);
-            wait_us(1000);
+            wait_us(100000);
         }
     }
 }
